@@ -5,18 +5,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>個案管理 Beta</title>
         <item>
             <title>0.1.5</title>
-            <pubDate>Thu, 27 Aug 2026 12:03:21 +0800</pubDate>
+            <pubDate>Thu, 27 Aug 2026 23:15:10 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>5</sparkle:version>
+            <sparkle:version>6</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<p>改善「今日」週工作表顯示與可讀性：完整呈現節次時間與第 8 節、提升深色模式對比、優化同步狀態與工作時段提示，並修正不同視窗高度下的版面裁切問題。</p>
+            <description><![CDATA[<h2>個案管理 Beta build 6</h2>
+<p>本版修正未連結 Google 日曆時，因選用的同步工作尚未啟用而錯誤阻擋更新；已連結 Google 日曆時仍維持安全檢查。</p>
+<p>如果 App 內 OTA 因安全流程暫停，請先正常退出 App，再到 <a href="https://github.com/max0071001/case-management-beta-updates/releases/tag/v0.1-beta.6">Beta build 6 GitHub Release</a> 下載完整安裝包。</p>
+<p>完整安裝包檔名：<code>個案管理-Beta-7天試用-v0.1.5-unsigned.zip</code>。此 ZIP 內含 PKG 與安裝說明。</p>
+<p>本版仍為 <code>closed_beta_experiment_only</code>，尚未完成 Developer ID 簽章與 Apple 公證。</p>
 ]]></description>
-            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.4/case-management-beta-v0.1.5-build-5.zip" length="17101631" type="application/octet-stream" sparkle:edSignature="dGvLarHlI5HZrG4GRwnKdpxGghwVUa0ty/+f4Z4XpTRS6JFgWSPQ1UVJQ5i5yFUKYlsNovwJQoNdAxCatG/uAQ=="></enclosure>
+            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.6/case-management-beta-v0.1.5-build-6.zip" length="17110746" type="application/octet-stream" sparkle:edSignature="R7uHQljquRdKKwkl+0yHFZza6jOCRu4WW0i/Si0wxIZBWFbFl+6bAfmDwwBV24t14E2dyJgFFQ9Z3mdwpVDsAg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: pYp8YOacIIeVBaq7rWQnlO6+4LfeV8seYQ01cH+6weS+u+ENBk3VwjuIcVDZBjXVuzV6T9AFuiJ1RRWLN/O9DA==
-length: 1503
+edSignature: xILOfpJf6K67Vnv1eza3MzfxU5BpXlKuOVtZxr/PLEONvKqEJlzk9zejAfCfUBTqk+X6xuYkAxOsUOnrlgWDAw==
+length: 1957
 -->
