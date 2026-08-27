@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>個案管理 Beta</title>
+        <item>
+            <title>0.1.5</title>
+            <pubDate>Thu, 27 Aug 2026 12:03:21 +0800</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.4/case-management-beta-v0.1.5-build-5.zip" length="17101631" type="application/octet-stream" sparkle:edSignature="dGvLarHlI5HZrG4GRwnKdpxGghwVUa0ty/+f4Z4XpTRS6JFgWSPQ1UVJQ5i5yFUKYlsNovwJQoNdAxCatG/uAQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: zo5S0akhcq/8qTWajm0eq8Stn2D2+Fy8JCwTrCN+HW7O4VnkH0gZoYS63UGQ4QOVlveYmn2C08Eu7N/xG8vTCg==
+length: 1230
+-->
