@@ -11,10 +11,12 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<p>改善「今日」週工作表顯示與可讀性：完整呈現節次時間與第 8 節、提升深色模式對比、優化同步狀態與工作時段提示，並修正不同視窗高度下的版面裁切問題。</p>
+]]></description>
             <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.4/case-management-beta-v0.1.5-build-5.zip" length="17101631" type="application/octet-stream" sparkle:edSignature="dGvLarHlI5HZrG4GRwnKdpxGghwVUa0ty/+f4Z4XpTRS6JFgWSPQ1UVJQ5i5yFUKYlsNovwJQoNdAxCatG/uAQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zo5S0akhcq/8qTWajm0eq8Stn2D2+Fy8JCwTrCN+HW7O4VnkH0gZoYS63UGQ4QOVlveYmn2C08Eu7N/xG8vTCg==
-length: 1230
+edSignature: pYp8YOacIIeVBaq7rWQnlO6+4LfeV8seYQ01cH+6weS+u+ENBk3VwjuIcVDZBjXVuzV6T9AFuiJ1RRWLN/O9DA==
+length: 1503
 -->
