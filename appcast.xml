@@ -5,22 +5,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>個案管理 Beta</title>
         <item>
             <title>0.1.5</title>
-            <pubDate>Thu, 27 Aug 2026 23:22:24 +0800</pubDate>
+            <pubDate>Fri, 28 Aug 2026 22:50:56 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>6</sparkle:version>
+            <sparkle:version>7</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description><![CDATA[<h2>個案管理 Beta build 6</h2>
-<p>本版修正未連結 Google 日曆時，因選用的同步工作尚未啟用而錯誤阻擋更新；已連結 Google 日曆時仍維持安全檢查。</p>
-<p>如果 App 內 OTA 因安全流程暫停，請先正常退出 App，再到 <a href="https://github.com/max0071001/case-management-beta-updates/releases/tag/v0.1-beta.6">Beta build 6 GitHub Release</a> 下載完整安裝包。</p>
-<p>完整安裝包檔名：<code>case-management-beta-installer-v0.1.5-build-6-unsigned.zip</code>。此 ZIP 內含 PKG 與安裝說明。</p>
-<p>本版仍為 <code>closed_beta_experiment_only</code>，尚未完成 Developer ID 簽章與 Apple 公證。</p>
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta v0.1.5 build 7
+
+> [!CAUTION]
+> **完整安裝請下載：**
+>
+> **[case-management-beta-installer-v0.1.5-build-7-unsigned.zip](https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.7/case-management-beta-installer-v0.1.5-build-7-unsigned.zip)**
+
+完整安裝 ZIP 內含 PKG、安裝教學，以及移除 App 與保留資料的說明。
+
+> 請不要手動下載 `case-management-beta-v0.1.5-build-7.zip`。它只供 App 內的 Sparkle 自動更新使用，不是一般安裝包。
+
+## 本版更新
+
+- 行事曆改為本機功能優先；Google Calendar 改成選配，並支援使用者自備 OAuth 設定。
+- 修正未編號個案把資料夾名稱誤顯示成個案編號的問題。
+- 改善課表匯入：正確辨識班級與導師標題，並同步目前學期的導師名冊。
+- 課表搜尋加入即時建議，較容易找到班級與節次。
+- 補上 P11 年級確認原因，並修正排程草稿的服務對象同步。
+- Beta 授權視窗現在可以關閉，不會阻擋使用者返回 App。
+- 改善舊資料格式的相容性，以及完整安裝與 Gatekeeper 操作說明。
+
+## 發佈邊界
+
+這仍是 `closed_beta_experiment_only` 的封閉 Beta 測試版，沿用 7 天試用與序號授權。App 與 PKG 使用本機 ad-hoc／unsigned 流程，尚未使用 Apple Developer ID 簽章或公證，不代表正式公開發行。
 ]]></description>
-            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.6/case-management-beta-v0.1.5-build-6.zip" length="17110746" type="application/octet-stream" sparkle:edSignature="R7uHQljquRdKKwkl+0yHFZza6jOCRu4WW0i/Si0wxIZBWFbFl+6bAfmDwwBV24t14E2dyJgFFQ9Z3mdwpVDsAg=="></enclosure>
+            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.7/case-management-beta-v0.1.5-build-7.zip" length="17148762" type="application/octet-stream" sparkle:edSignature="U/nRB5Ewxc1QK3tFU1x4o8cmo0OI/tth6skT/y0N7RsvpuwfkgAUPUJWWxaAUqZWgumygudZUS7bGknE+5EODg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: DM94CZtHgW8CwQY7qv76aRRuRKH9ulDfXih45AwkL8V2O4mheQd10WJNjn0ptguEY917p+VApqxdWhPRvrUtDg==
-length: 1967
+edSignature: yaa1P+8AZ9yEd2lTuNAQh+5MOyu0KUHM8IkZFDkxITvwG35Xg6Ft/i53oSo1d5vXonUw/mrSLC/I0yGeWNXZBw==
+length: 2711
 -->
