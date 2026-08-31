@@ -5,28 +5,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>個案管理 Beta</title>
         <item>
             <title>0.1.5</title>
-            <pubDate>Sat, 29 Aug 2026 13:36:57 +0800</pubDate>
+            <pubDate>Mon, 31 Aug 2026 07:32:36 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>8</sparkle:version>
+            <sparkle:version>9</sparkle:version>
             <sparkle:shortVersionString>0.1.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta v0.1.5 build 8
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta v0.1.5
 
-## 本版更新
+這次更新讓班級設定、課表查詢與日常操作更順手，也改善部分舊資料的相容性。
 
-- 將右上角的問題回報入口改為清楚顯示「回報問題」的按鈕，第一次使用時更容易找到。
-- 改善 Beta 介面與設定區域的可讀性與操作辨識度。
-- 延續前一版的本機資料優先、課表與行事曆相關修正。
+- 新增班級、服務階段與導師設定草稿。
+- 課表支援不同學期查詢，並改善班級與導師資料更新。
+- 調整首頁、月報表、個案摘要與寬螢幕顯示。
+- 提高配色對比，修正部分舊資料無法儲存人工風險判斷的問題。
 
-## 發佈邊界
+提醒：班級設定目前提供草稿與預覽，不會直接變更既有個案資料。
 
-這仍是 `closed_beta_experiment_only` 的封閉 Beta 測試版，沿用 7 天試用與序號授權。此 OTA 使用 Sparkle 更新 ZIP；目前不是 Developer ID 簽章或公證版本，不代表正式公開發行。
+感謝參與公測的夥伴提供回饋，發現的問題目前正持續確認並逐步修復中。
 ]]></description>
-            <enclosure url="https://github.com/max0071001/case-management-beta-updates/releases/download/v0.1-beta.8/case-management-beta-v0.1.5-build-8.zip" length="17188808" type="application/octet-stream" sparkle:edSignature="WF1m9ztC2mGqnOUjT3IKWI14tdLAN6cAaNDZaw4+43l0fO8muMh5LkODiy8wUFAzfcqQsyLBeV/W4cZDhsDUCA=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.9/case-management-beta-v0.1.5-build-9.zip" length="16859191" type="application/octet-stream" sparkle:edSignature="LiHMbOfPsoyxe/9JVViEnhJMCbwv7IC2ib1Xfe7lorOBci2yupGqv5rKUFC+H1ayQli+u3st25gIM7lWmAOHBA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jCyDdlD0JaOANOiybtOQmanUrRWfHc/BMeyrAWq14Kh0t5NBnkreumM5QnpUvsFCyFM5SfTpY+QLUMv7a90nBQ==
-length: 1863
+edSignature: ZpIBp2+JXa8zSAqAsaNUQpDnWohR6x0iyCMagdkynPb6jl5UC2pfeiSwXljaSnt6iGZuYhh1qyvXE+4QOcI1Cg==
+length: 1920
 -->
