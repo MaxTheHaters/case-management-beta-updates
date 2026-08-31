@@ -5,7 +5,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <title>個案管理 Beta</title>
         <item>
             <title>0.1.6</title>
-            <pubDate>Mon, 31 Aug 2026 21:16:36 +0800</pubDate>
+            <pubDate>Mon, 31 Aug 2026 22:30:33 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
@@ -71,10 +71,10 @@ App 會產生隨機 UUID 作為裝置識別碼。這個識別碼不是硬體序�
 
 謝謝各位測試夥伴協助，接下來會持續確認實際使用情況並修正問題。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.10/case-management-beta-v0.1.6-build-10.zip" length="16958952" type="application/octet-stream" sparkle:edSignature="EUTsTSJ4opKzfExRL5Q5EROJawwefJ8ldv+pOV66X/gp5UWHLDZGKpYZIUiUJNrXoW1a8Y/gaua/JJ8OtzTJAg=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.10/case-management-beta-v0.1.6-build-10.zip" length="16958950" type="application/octet-stream" sparkle:edSignature="BkrQWrQ9EOTboxE+mNQddrEuM90F0ILldHM1/m6VOtfURU336vfPIrIX687J16XZfw110tXentTFgiVALqNMBQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VxonXb9d8lAmQ/BCK3Z/A07h2qJcpFSlmBDYH+HGiYxOx0ykU8qWhWMNjYlI95K09UER075NOMcAbvzvmiefDg==
+edSignature: ZzvvKjqYLFnGrdBZvVag142yTT/P208AdBGovatvJQ9m7CFoPlW5KNdGb6VtuAfTanZ39SHh7ENXHnknrr6xCQ==
 length: 3761
 -->
