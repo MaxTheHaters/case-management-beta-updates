@@ -1,65 +1,73 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.6</title>
-            <pubDate>Mon, 31 Aug 2026 22:30:33 +0800</pubDate>
+            <title>0.1.7</title>
+            <pubDate>Thu, 03 Sep 2026 11:42:11 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>10</sparkle:version>
-            <sparkle:shortVersionString>0.1.6</sparkle:shortVersionString>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.6（Build 10）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.7（Build 11）
 
 ## 1. 第一次安裝請下載這個檔案
 
 請下載完整首次安裝包：
 
-`case-management-beta-installer-v0.1.6-build-10-unsigned.zip`
+`case-management-beta-installer-v0.1.7-build-11-unsigned.zip`
 
-SHA-256：
+完整安裝 ZIP SHA-256：
 
-`fc6f6a53ab046f77e3c1828550779afcfeef0980c6e4298466ecaaca7c3989fd`
+`f72bd83877e63fcf60f6c170c75302a608d3c9e269ac7e3f43500622d0bb3c5f`
 
 完整安裝包內含：
 
 - `1_先看安裝教學.html`
 - `assets/` 安裝教學圖片與影片
-- `2_個案管理-Beta-7天試用-v0.1.6-unsigned.pkg`
+- `2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
 - `3_移除與資料說明.txt`
 
 另提供獨立安裝 PKG：
 
-`case-management-beta-installer-v0.1.6-build-10-unsigned.pkg`
+`2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
 
-SHA-256：
+PKG SHA-256：
 
-`d0d1b51bec177175bf736812f1f7f0d4dc538c479ad4ec4af84cedbc18645e55`
+`f80ca8f78384cf8f8d29cdc6f93e23a5dc424e940a3f505f59c54ae471a0d73a`
 
 第一次安裝請使用完整安裝 ZIP，不要使用 Sparkle OTA ZIP。
 
-第一次啟動時，macOS 可能會顯示鑰匙圈提示。若畫面顯示「個案管理 Beta」，請依照教學選擇「永遠允許」。
+第一次啟動時，macOS 可能會顯示鑰匙圈提示。若畫面顯示「個案管理 Beta」，請確認來源可信後依教學選擇「永遠允許」。
 
-Mac 登入密碼由 macOS 自己處理，App 不會取得、儲存或傳送你的 Mac 登入密碼。
+Mac 登入密碼由 macOS 直接處理。App 不會取得、保存或傳送這個密碼。
 
-App 會產生隨機 UUID 作為裝置識別碼。這個識別碼不是硬體序號、MAC 位址、電腦名稱、使用者名稱或個案資料。授權服務不會傳送個案內容；只使用授權所需的序號、版本、架構與隨機裝置識別碼。
+App 會用 `UUID()` 產生隨機裝置識別碼。這個識別碼不是硬體序號、MAC 位址、電腦名稱、使用者名稱或個案資料。授權服務只使用授權所需的序號、代稱、App 版本、Mac 架構與隨機裝置識別碼，不會傳送個案資料、檔案路徑或 Google Calendar 內容。
 
 ## 2. 已安裝 Beta 的夥伴
 
-已經安裝 Beta 的夥伴，不需要另外下載安裝檔。請在 App 的「更新」選單選擇「檢查更新」，由 Sparkle 顯示更新通知；確認後，App 會下載、驗證並在安全退出後完成 OTA 更新。
+已經安裝 Beta 的夥伴，請在 App 的「更新」選單選擇「檢查更新」，由 Sparkle 顯示更新通知；確認後，App 會下載、驗證並在安全退出後完成 OTA 更新。
 
-`case-management-beta-v0.1.6-build-10.zip`
+App 內更新專用 ZIP：
 
-這個 ZIP 是 App 內更新機制使用的檔案，不能用於第一次安裝，也不要手動解壓或拿來安裝。
+`case-management-beta-v0.1.7-build-11.zip`
+
+Sparkle OTA ZIP SHA-256：
+
+`7c936ff495234502842c145251a1a88e8f9c986ba1b7fcb0e9bd80774e488016`
+
+Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，不能用於第一次安裝，也不要手動解壓或拿來安裝。
 
 ## 3. 本版更新
 
-- 新增 115 學年度起適用的結案通知書列印與 A5 PDF 預覽。
-- 補上舊資料的風險欄位檢查，以及確認後修復流程。
-- 整理自動排案與工作行事曆的預覽、調整和安全寫入流程。
-- 同步三個 App 版本的資料與設定處理，減少版本之間的差異。
+- 改善首頁提醒、個案清單載入與選取範圍，讓待處理項目和個案資訊更容易找到。
+- 自動排案新增依個案狀態篩選，並整理週表、行事曆事件建立與重複行程處理流程。
+- 改善紀錄編輯、貼上、輸入法、附件與待處理清單快捷鍵的穩定性，降低編輯內容遺失或重複的情況。
+- 加強正式紀錄寫入與資料一致性檢查，遇到無法安全確認的狀態時停止處理。
 
 ## 4. 發佈邊界
 
@@ -71,10 +79,11 @@ App 會產生隨機 UUID 作為裝置識別碼。這個識別碼不是硬體序�
 
 謝謝各位測試夥伴協助，接下來會持續確認實際使用情況並修正問題。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.10/case-management-beta-v0.1.6-build-10.zip" length="16958950" type="application/octet-stream" sparkle:edSignature="BkrQWrQ9EOTboxE+mNQddrEuM90F0ILldHM1/m6VOtfURU336vfPIrIX687J16XZfw110tXentTFgiVALqNMBQ=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.11/case-management-beta-v0.1.7-build-11.zip" length="17099998" type="application/octet-stream" sparkle:edSignature="0rs6YzcutXAhRyre4pJxCYokPVqd8DKPGmAna2RJdc5jA4/hTsvjwpN31r86DbfDLjpnS9x8fDs57nuRzsFRAw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: ZzvvKjqYLFnGrdBZvVag142yTT/P208AdBGovatvJQ9m7CFoPlW5KNdGb6VtuAfTanZ39SHh7ENXHnknrr6xCQ==
-length: 3761
+</rss>
+<!-- sparkle-signatures:
+edSignature: OOTnIjY3iC1zcect2QB3HOu+qEic/Nw0PJ/w4xzEm1Qn/bnC742XTXh/wii5W/RBF+/Ca10GjuVRa1xT2N5mBw==
+length: 4081
 -->
