@@ -1,93 +1,64 @@
-<?xml version="1.0" standalone="yes"?>
-<!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
--->
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.7</title>
-            <pubDate>Thu, 03 Sep 2026 11:42:11 +0800</pubDate>
+            <title>0.1.8</title>
+            <pubDate>Thu, 03 Sep 2026 14:37:03 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.1.7</sparkle:shortVersionString>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.7（Build 11）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.8（Build 12）
 
 ## 1. 第一次安裝請下載這個檔案
 
 請下載完整首次安裝包：
 
-`case-management-beta-installer-v0.1.7-build-11-unsigned.zip`
-
-完整安裝 ZIP SHA-256：
-
-`f72bd83877e63fcf60f6c170c75302a608d3c9e269ac7e3f43500622d0bb3c5f`
+`case-management-beta-installer-v0.1.8-build-12-unsigned.zip`
 
 完整安裝包內含：
 
 - `1_先看安裝教學.html`
 - `assets/` 安裝教學圖片與影片
-- `2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
+- `2_個案管理-Beta-7天試用-v0.1.8-unsigned.pkg`
 - `3_移除與資料說明.txt`
 
-完整安裝 ZIP 內的 PKG 檔名：
+GitHub Release 也提供可直接下載的獨立 PKG：
 
-`2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
-
-GitHub Release 另提供可直接下載的獨立 PKG：
-
-`case-management-beta-installer-v0.1.7-build-11-unsigned.pkg`
-
-PKG SHA-256：
-
-`f80ca8f78384cf8f8d29cdc6f93e23a5dc424e940a3f505f59c54ae471a0d73a`
+`case-management-beta-installer-v0.1.8-build-12-unsigned.pkg`
 
 第一次安裝請使用完整安裝 ZIP，不要使用 Sparkle OTA ZIP。
 
-第一次啟動時，macOS 可能會顯示鑰匙圈提示。若畫面顯示「個案管理 Beta」，請確認來源可信後依教學選擇「永遠允許」。
-
-Mac 登入密碼由 macOS 直接處理。App 不會取得、保存或傳送這個密碼。
-
-App 會用 `UUID()` 產生隨機裝置識別碼。這個識別碼不是硬體序號、MAC 位址、電腦名稱、使用者名稱或個案資料。授權服務只使用授權所需的序號、代稱、App 版本、Mac 架構與隨機裝置識別碼，不會傳送個案資料、檔案路徑或 Google Calendar 內容。
-
 ## 2. 已安裝 Beta 的夥伴
 
-已經安裝 Beta 的夥伴，請在 App 的「更新」選單選擇「檢查更新」，由 Sparkle 顯示更新通知；確認後，App 會下載、驗證並在安全退出後完成 OTA 更新。
+已經安裝 Beta 的夥伴，請在 App 的「更新」選單選擇「檢查更新」。看到 `0.1.8 Build 12` 後確認更新，App 會在安全退出後完成安裝。
 
 App 內更新專用 ZIP：
 
-`case-management-beta-v0.1.7-build-11.zip`
+`case-management-beta-v0.1.8-build-12.zip`
 
-Sparkle OTA ZIP SHA-256：
-
-`7c936ff495234502842c145251a1a88e8f9c986ba1b7fcb0e9bd80774e488016`
-
-Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，不能用於第一次安裝，也不要手動解壓或拿來安裝。
+Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，請不要手動解壓或拿來做第一次安裝。
 
 ## 3. 本版更新
 
-- 改善首頁提醒、個案清單載入與選取範圍，讓待處理項目和個案資訊更容易找到。
-- 自動排案新增依個案狀態篩選，並整理週表、行事曆事件建立與重複行程處理流程。
-- 改善紀錄編輯、貼上、輸入法、附件與待處理清單快捷鍵的穩定性，降低編輯內容遺失或重複的情況。
-- 加強正式紀錄寫入與資料一致性檢查，遇到無法安全確認的狀態時停止處理。
+- 修正第一段授權到期後，已登錄的第二段授權沒有接續，導致 App 停在唯讀的問題。
+- 舊授權到期且新授權已到接續日時，「重新驗證」會優先啟用新授權。
+- 更新不會刪除個案資料、授權序號或原有設定。
 
-## 4. 發佈邊界
+## 4. 發布邊界
 
 - 本版本標記為 `closed_beta_experiment_only`，僅供封閉 Beta 測試。
 - 提供 7 天試用，並使用序號進行授權。
 - 本版本未經 Developer ID 簽章，也未經 Apple 公證。
-- 僅供受邀測試夥伴使用，不是正式公開發行版本。
-- 測試時請只使用去識別化資料或虛構資料，請勿放入真實個案資料。
-
-謝謝各位測試夥伴協助，接下來會持續確認實際使用情況並修正問題。
+- 安裝時請依完整安裝 ZIP 內的教學處理 macOS Gatekeeper 提示。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.11/case-management-beta-v0.1.7-build-11.zip" length="17099998" type="application/octet-stream" sparkle:edSignature="0rs6YzcutXAhRyre4pJxCYokPVqd8DKPGmAna2RJdc5jA4/hTsvjwpN31r86DbfDLjpnS9x8fDs57nuRzsFRAw=="/>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.12/case-management-beta-v0.1.8-build-12.zip" length="17099682" type="application/octet-stream" sparkle:edSignature="yJNcQKEqm1j8xq+Lsj28ucOATI6kx02gSTfEpPpFjc4GRtH/MeWZ9mK93/COv2fY03NXiM3ul/xcJqIpviWdBw=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: DCHk0Aeg0Pqw5GKJxYkonx4/s78I66mo8lZvVt+PQluSdMrdbq8pl/kWoc2I81FYag9TWC5uiQROmj4t3KDsBQ==
-length: 4210
+</rss><!-- sparkle-signatures:
+edSignature: d1IUpG5hEr1rmCUVCDXnjQbXPOTlkg5HztEVbdXMDyCWmOWYEXShX7POOUCg2yCZG42pBFgpGB0Py6L1aKBuBA==
+length: 2858
 -->
