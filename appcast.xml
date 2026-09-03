@@ -32,9 +32,13 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - `2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
 - `3_移除與資料說明.txt`
 
-另提供獨立安裝 PKG：
+完整安裝 ZIP 內的 PKG 檔名：
 
 `2_個案管理-Beta-7天試用-v0.1.7-unsigned.pkg`
+
+GitHub Release 另提供可直接下載的獨立 PKG：
+
+`case-management-beta-installer-v0.1.7-build-11-unsigned.pkg`
 
 PKG SHA-256：
 
@@ -84,6 +88,6 @@ Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，不能用於第一次安�
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OOTnIjY3iC1zcect2QB3HOu+qEic/Nw0PJ/w4xzEm1Qn/bnC742XTXh/wii5W/RBF+/Ca10GjuVRa1xT2N5mBw==
-length: 4081
+edSignature: DCHk0Aeg0Pqw5GKJxYkonx4/s78I66mo8lZvVt+PQluSdMrdbq8pl/kWoc2I81FYag9TWC5uiQROmj4t3KDsBQ==
+length: 4210
 -->
