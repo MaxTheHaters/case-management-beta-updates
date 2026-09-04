@@ -4,61 +4,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.8</title>
-            <pubDate>Thu, 03 Sep 2026 14:37:03 +0800</pubDate>
+            <title>0.1.9</title>
+            <pubDate>Fri, 04 Sep 2026 10:23:39 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.8（Build 12）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.9（Build 13）
 
-## 1. 第一次安裝請下載這個檔案
+## 這次修正
 
-請下載完整首次安裝包：
+- 修正更新或啟用曾中斷後，同一台 Mac 可能持續顯示唯讀模式的問題。
+- App 會再次向授權服務確認；只有授權有效時才會恢復編輯，安全限制不變。
 
-`case-management-beta-installer-v0.1.8-build-12-unsigned.zip`
+## 下載方式
 
-完整安裝包內含：
+- 第一次安裝請下載 `case-management-beta-installer-v0.1.9-build-13-unsigned.zip`，解壓縮後先閱讀安裝教學。
+- 若只需要安裝套件，可下載 `case-management-beta-installer-v0.1.9-build-13-unsigned.pkg`。
+- `case-management-beta-v0.1.9-build-13.zip` 是 App 內更新使用的檔案，不適合手動安裝。
 
-- `1_先看安裝教學.html`
-- `assets/` 安裝教學圖片與影片
-- `2_個案管理-Beta-7天試用-v0.1.8-unsigned.pkg`
-- `3_移除與資料說明.txt`
-
-GitHub Release 也提供可直接下載的獨立 PKG：
-
-`case-management-beta-installer-v0.1.8-build-12-unsigned.pkg`
-
-第一次安裝請使用完整安裝 ZIP，不要使用 Sparkle OTA ZIP。
-
-## 2. 已安裝 Beta 的夥伴
-
-已經安裝 Beta 的夥伴，請在 App 的「更新」選單選擇「檢查更新」。看到 `0.1.8 Build 12` 後確認更新，App 會在安全退出後完成安裝。
-
-App 內更新專用 ZIP：
-
-`case-management-beta-v0.1.8-build-12.zip`
-
-Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，請不要手動解壓或拿來做第一次安裝。
-
-## 3. 本版更新
-
-- 修正第一段授權到期後，已登錄的第二段授權沒有接續，導致 App 停在唯讀的問題。
-- 舊授權到期且新授權已到接續日時，「重新驗證」會優先啟用新授權。
-- 更新不會刪除個案資料、授權序號或原有設定。
-
-## 4. 發布邊界
-
-- 本版本標記為 `closed_beta_experiment_only`，僅供封閉 Beta 測試。
-- 提供 7 天試用，並使用序號進行授權。
-- 本版本未經 Developer ID 簽章，也未經 Apple 公證。
-- 安裝時請依完整安裝 ZIP 內的教學處理 macOS Gatekeeper 提示。
+本版本仍為封閉測試版，尚未使用 Apple Developer ID 簽章與公證。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.12/case-management-beta-v0.1.8-build-12.zip" length="17099682" type="application/octet-stream" sparkle:edSignature="yJNcQKEqm1j8xq+Lsj28ucOATI6kx02gSTfEpPpFjc4GRtH/MeWZ9mK93/COv2fY03NXiM3ul/xcJqIpviWdBw=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.13/case-management-beta-v0.1.9-build-13.zip" length="17203806" type="application/octet-stream" sparkle:edSignature="ED9ljhfzOqex5FZV9XkM1hTkqCZsZtA8Fd1iBW1DWvb4TnqGaADkZxSGaGRMVMmi/M8EHq58Bok9eB/p2ATeBg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: d1IUpG5hEr1rmCUVCDXnjQbXPOTlkg5HztEVbdXMDyCWmOWYEXShX7POOUCg2yCZG42pBFgpGB0Py6L1aKBuBA==
-length: 2858
+edSignature: o8ryqu6E4lTBUdcDxYQMr858ssVzBFD0bk2VHBOU0Yy51dDXrSP3DSsBp86U0OdjpZHsSMyFO+OJ2p0fg5CNDQ==
+length: 2009
 -->
