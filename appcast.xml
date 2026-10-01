@@ -4,63 +4,43 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.10</title>
-            <pubDate>Mon, 07 Sep 2026 16:31:58 +0800</pubDate>
+            <title>0.1.11</title>
+            <pubDate>Fri, 02 Oct 2026 00:45:21 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.1.10</sparkle:shortVersionString>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.10（Build 14）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.11（Build 15）
 
-## 1. 第一次安裝請下載這個檔案
+## 本版更新
 
-第一次安裝請下載完整安裝 ZIP：`case-management-beta-installer-v0.1.10-build-14-unsigned.zip`
+- 修正舊紀錄開啟時，章節資料尚未載入便被判定為無法編輯的問題。
+- 改善紀錄視窗關閉後的通知處理，減少舊視窗通知干擾新視窗。
+- 調整紀錄貼上與章節辨識，保留正文內與章節同名的標題。
+- 相關服務通知單可讀取關聯學生的班級與姓名；多位學生分別產生通知單，缺少班級時標示待確認。
+- 納入近期首頁、工作行事曆與共用介面的整理。
 
-完整安裝 ZIP 內含：
+## 已安裝 Beta
 
-- `1_先看安裝教學.html`
-- `assets/` 安裝教學圖片與影片
-- `2_個案管理-Beta-7天試用-v0.1.10-unsigned.pkg`
-- `3_移除與資料說明.txt`
+請使用 App 內的「檢查更新」取得本版。
+OTA 更新檔：`case-management-beta-v0.1.11-build-15.zip`。
 
-完整安裝 ZIP 的 SHA-256：`a05899ab851828e90df9d18966ea37d6e5163649603351436dfd14fd435ade42`
+## 第一次安裝
 
-獨立安裝 PKG 的 SHA-256：`74bb4311454a8a3a67e1e0d2d48f967afad397acb24c3eb17d98779e6730077f`
+下載完整安裝包：`case-management-beta-installer-v0.1.11-build-15-unsigned.zip`，解壓縮後先閱讀安裝教學。
+獨立安裝檔：`case-management-beta-installer-v0.1.11-build-15-unsigned.pkg`。
 
-GitHub Release 提供的獨立 PKG 檔名為：`case-management-beta-installer-v0.1.10-build-14-unsigned.pkg`。完整安裝 ZIP 內保留的 PKG 檔名是上方的中文檔名。
+## 測試範圍
 
-第一次啟動可能會出現鑰匙圈提示。請先確認提示中的 App 名稱是「個案管理 Beta」，再決定是否允許。Mac 登入密碼由 macOS 直接處理，App 不會取得、保存或傳送這個密碼。
+本版仍為受邀測試使用的封閉 Beta（closed_beta_experiment_only），提供既有的 7 天試用與序號授權。App 與安裝包未經 Developer ID 簽章或 Apple 公證，請依隨附教學操作。
 
-Beta 專用鑰匙圈可能保存 7 天試用、序號、代稱，以及 App 產生的隨機 UUID 裝置識別碼。這個 UUID 不是硬體序號、MAC 位址、電腦名稱、使用者名稱或個案資料。
-
-啟用或重新驗證序號時，授權服務只處理序號、代稱、App 版本、Mac 架構與隨機 UUID 裝置識別碼，不傳送個案資料、檔案路徑或 Google Calendar 內容。
-
-## 2. 已安裝 Beta 的夥伴
-
-已安裝「個案管理 Beta」的夥伴，請使用 App 內的 Sparkle 更新流程取得：`case-management-beta-v0.1.10-build-14.zip`
-
-這個 Sparkle OTA ZIP 只供已安裝 Beta 的夥伴更新，不能用於第一次安裝，也不包含安裝教學或 PKG。
-
-## 3. 本版更新
-
-- 整理 Google 行事曆同步修復的提示與紀錄編輯器操作流程，讓安全限制更清楚。
-- 改善首頁提醒與個案載入，補上自動排案的狀態篩選。
-- 新增 115 學年度起的結案通知書與 A5 PDF 預覽流程。
-- 補上舊資料區的人工風險欄位檢查，修復前需要先確認。
-- 整理自動排案與工作行事曆的預覽、調整及安全寫入流程。
-- 同步共用資料模型、設定畫面與三個 App 版本的建置相容性調整。
-
-## 4. 發佈邊界
-
-本版本仍是 `closed_beta_experiment_only` 封閉 Beta 測試版，提供 7 天試用與序號授權。App 與安裝 PKG 未經 Developer ID 簽章或 Apple 公證，不能視為正式公開發行。
-
-本版本只提供給受邀測試夥伴。測試期間只使用去識別化或虛構資料，不要放入真實個案資料。謝謝每位測試夥伴，接下來會持續確認使用情況並修正問題。
+本次確認建置與發布包完整性；未新增完整 App 操作驗收。請使用虛構或去識別化資料測試，不放入真實個案資料。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.14/case-management-beta-v0.1.10-build-14.zip" length="17664100" type="application/octet-stream" sparkle:edSignature="TGaaer5weOFodlzkLnB6dg4Mvaa24G16OmZAU3KRG5oRvlnk0TTJAfJK1P8aCcophqrOhHb7FSTUITPxZBtdCQ=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.15/case-management-beta-v0.1.11-build-15.zip" length="19769288" type="application/octet-stream" sparkle:edSignature="Wb4s/PFhIIh1AbyT2Q1XjrN9l3qC9jSobx0QlZv6qcWulNSCRquOHFOXd+lrHZBWr9syT6HP/Skm6SXZiKalAA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: PTTSKWYf2Qi1cbx9ZCNpuQYvstZxepPSlJ+Sv9glFLrOFhBCW8HJa2r54xrU9C6IT7nGFAI6TfAm+g30n6fsAw==
-length: 3961
+edSignature: 1znT6R5xFf4hleKv1TcH9Rf4nGToN/8Z7TDNVuyt/oku0hXWws7N0hW2zIOzOdzlC7lihTTDJ37Ko9rLuk5SCg==
+length: 2591
 -->
