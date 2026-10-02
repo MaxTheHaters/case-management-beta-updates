@@ -4,43 +4,39 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.11</title>
-            <pubDate>Fri, 02 Oct 2026 00:45:21 +0800</pubDate>
+            <title>0.1.12</title>
+            <pubDate>Fri, 02 Oct 2026 20:35:11 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.11（Build 15）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.12（Build 16）
 
-## 本版更新
+## 本次更新
 
-- 修正舊紀錄開啟時，章節資料尚未載入便被判定為無法編輯的問題。
-- 改善紀錄視窗關閉後的通知處理，減少舊視窗通知干擾新視窗。
-- 調整紀錄貼上與章節辨識，保留正文內與章節同名的標題。
-- 相關服務通知單可讀取關聯學生的班級與姓名；多位學生分別產生通知單，缺少班級時標示待確認。
-- 納入近期首頁、工作行事曆與共用介面的整理。
+- 班級編號支援「多二甲」「餐三乙」等文字名稱，原有數字班級仍可使用。
+- 建立個案、編輯基本資料、班級異動、升級與排案流程使用一致的班級檢查。
+- 課表匯入保留完整文字班級；歷史紀錄沿用當時的班級資料。
 
-## 已安裝 Beta
+## 下載與更新
 
-請使用 App 內的「檢查更新」取得本版。
-OTA 更新檔：`case-management-beta-v0.1.11-build-15.zip`。
+既有 Beta 使用者可從 App 內檢查更新。
 
-## 第一次安裝
+- 首次安裝完整包：`case-management-beta-installer-v0.1.12-build-16-unsigned.zip`，包含安裝教學與 `2_個案管理-Beta-7天試用-v0.1.12-unsigned.pkg`。
+- 獨立安裝包：`case-management-beta-installer-v0.1.12-build-16-unsigned.pkg`。
+- App 自動更新使用：`case-management-beta-v0.1.12-build-16.zip`。
 
-下載完整安裝包：`case-management-beta-installer-v0.1.11-build-15-unsigned.zip`，解壓縮後先閱讀安裝教學。
-獨立安裝檔：`case-management-beta-installer-v0.1.11-build-15-unsigned.pkg`。
+本版維持封閉 Beta 測試，適用 Apple Silicon、macOS 26 以上；尚未取得 Apple Developer ID 簽署與公證。首次安裝請依完整包內教學操作。
 
-## 測試範圍
+## 驗證範圍
 
-本版仍為受邀測試使用的封閉 Beta（closed_beta_experiment_only），提供既有的 7 天試用與序號授權。App 與安裝包未經 Developer ID 簽章或 Apple 公證，請依隨附教學操作。
-
-本次確認建置與發布包完整性；未新增完整 App 操作驗收。請使用虛構或去識別化資料測試，不放入真實個案資料。
+文字班級與相關流程共 96 項測試通過，包含通知單既有列印規格回歸。未進行本版全新帳號安裝或完整人工畫面驗收。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.15/case-management-beta-v0.1.11-build-15.zip" length="19769288" type="application/octet-stream" sparkle:edSignature="Wb4s/PFhIIh1AbyT2Q1XjrN9l3qC9jSobx0QlZv6qcWulNSCRquOHFOXd+lrHZBWr9syT6HP/Skm6SXZiKalAA=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.16/case-management-beta-v0.1.12-build-16.zip" length="19771933" type="application/octet-stream" sparkle:edSignature="a33EqnFvtCCmtOk6dwwzPSvxi2SzCczy1ZEiLTG/LIKn9wF6Uv6tdq4nEolS61SG5jdDmbcQVIenQuMIBTr6CQ=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 1znT6R5xFf4hleKv1TcH9Rf4nGToN/8Z7TDNVuyt/oku0hXWws7N0hW2zIOzOdzlC7lihTTDJ37Ko9rLuk5SCg==
-length: 2591
+edSignature: 5/EEvasd7XZ40xBEDVzSEo9KmUfYoIhSweU0NXSELkwCG7YwKf+T7d8d+ODCZv9cyqrPJmpBKsFdwGOiLmq4BQ==
+length: 2416
 -->
