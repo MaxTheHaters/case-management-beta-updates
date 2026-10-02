@@ -4,39 +4,41 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.12</title>
-            <pubDate>Fri, 02 Oct 2026 20:35:11 +0800</pubDate>
+            <title>0.1.13</title>
+            <pubDate>Fri, 02 Oct 2026 22:09:09 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.12（Build 16）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.13（Build 17）
 
 ## 本次更新
 
-- 班級編號支援「多二甲」「餐三乙」等文字名稱，原有數字班級仍可使用。
-- 建立個案、編輯基本資料、班級異動、升級與排案流程使用一致的班級檢查。
-- 課表匯入保留完整文字班級；歷史紀錄沿用當時的班級資料。
+- 新增工作與晤談紀錄失敗時，顯示實際失敗步驟，避免後續的同步提示蓋住原因。
+- 紀錄格式未完成時，可區分內容缺漏、完整性核對失敗、備份不符、存取權限不足與儲存空間不足。
+- 重試時清除前次錯誤，成功後不再保留舊提示；一般畫面不顯示私人路徑或內部識別碼。
+
+本版改善失敗原因的呈現，不會自動修復已部分建立的紀錄。若建立未完成，請先確認現有紀錄，避免重複新增。
 
 ## 下載與更新
 
 既有 Beta 使用者可從 App 內檢查更新。
 
-- 首次安裝完整包：`case-management-beta-installer-v0.1.12-build-16-unsigned.zip`，包含安裝教學與 `2_個案管理-Beta-7天試用-v0.1.12-unsigned.pkg`。
-- 獨立安裝包：`case-management-beta-installer-v0.1.12-build-16-unsigned.pkg`。
-- App 自動更新使用：`case-management-beta-v0.1.12-build-16.zip`。
+- 首次安裝完整包：`case-management-beta-installer-v0.1.13-build-17-unsigned.zip`，包含安裝教學與 `2_個案管理-Beta-7天試用-v0.1.13-unsigned.pkg`。
+- 獨立安裝包：`case-management-beta-installer-v0.1.13-build-17-unsigned.pkg`。
+- App 更新使用：`case-management-beta-v0.1.13-build-17.zip`。
 
 本版維持封閉 Beta 測試，適用 Apple Silicon、macOS 26 以上；尚未取得 Apple Developer ID 簽署與公證。首次安裝請依完整包內教學操作。
 
 ## 驗證範圍
 
-文字班級與相關流程共 96 項測試通過，包含通知單既有列印規格回歸。未進行本版全新帳號安裝或完整人工畫面驗收。
+本次修正的 14 項測試與 2 項相鄰檢查通過。另有 1 項既有個案清單排序測試失敗，已確認原版本也會失敗；未完成本版隔離畫面與全新帳號安裝驗收。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.16/case-management-beta-v0.1.12-build-16.zip" length="19771933" type="application/octet-stream" sparkle:edSignature="a33EqnFvtCCmtOk6dwwzPSvxi2SzCczy1ZEiLTG/LIKn9wF6Uv6tdq4nEolS61SG5jdDmbcQVIenQuMIBTr6CQ=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.17/case-management-beta-v0.1.13-build-17.zip" length="19774717" type="application/octet-stream" sparkle:edSignature="8VoZRZ12aDkaak19RzxBvCmZKQJTFlpvhTm4bU1m6eQM4ZDxN888h4miPFK64tPrq0yLkaMddXzn2q5Tv7l4Cg=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 5/EEvasd7XZ40xBEDVzSEo9KmUfYoIhSweU0NXSELkwCG7YwKf+T7d8d+ODCZv9cyqrPJmpBKsFdwGOiLmq4BQ==
-length: 2416
+edSignature: t4NZkYRqOr9OAis9M/FBB0t/YdRbKOflTBacL2Vez0ebSrfbrTPsddO/EdIhjE/19TR1OjUtNpstoh7uaIfsDw==
+length: 2679
 -->
