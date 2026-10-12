@@ -4,41 +4,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>個案管理 Beta</title>
         <item>
-            <title>0.1.13</title>
-            <pubDate>Fri, 02 Oct 2026 22:09:09 +0800</pubDate>
+            <title>0.1.14</title>
+            <pubDate>Mon, 12 Oct 2026 16:27:47 +0800</pubDate>
             <sparkle:channel>beta</sparkle:channel>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.13（Build 17）
+            <description sparkle:format="markdown"><![CDATA[# 個案管理 Beta 0.1.14（Build 18）
 
 ## 本次更新
 
-- 新增工作與晤談紀錄失敗時，顯示實際失敗步驟，避免後續的同步提示蓋住原因。
-- 紀錄格式未完成時，可區分內容缺漏、完整性核對失敗、備份不符、存取權限不足與儲存空間不足。
-- 重試時清除前次錯誤，成功後不再保留舊提示；一般畫面不顯示私人路徑或內部識別碼。
-
-本版改善失敗原因的呈現，不會自動修復已部分建立的紀錄。若建立未完成，請先確認現有紀錄，避免重複新增。
+- Beta 使用新的水彩圖示，保留 BETA 標示。
+- 調整月報統計的呈現與讀取方式，讓服務筆數、人次、來源與待補資料更容易查看。
+- 更新新授權的裝置啟用流程及期限判定，保留裝置上限與到期保護。
+- 納入近期紀錄視窗切換、服務歷程日期範圍與備份流程的調整。
 
 ## 下載與更新
 
-既有 Beta 使用者可從 App 內檢查更新。
+既有 Beta 使用者可從 App 內檢查更新，確認後安裝。
 
-- 首次安裝完整包：`case-management-beta-installer-v0.1.13-build-17-unsigned.zip`，包含安裝教學與 `2_個案管理-Beta-7天試用-v0.1.13-unsigned.pkg`。
-- 獨立安裝包：`case-management-beta-installer-v0.1.13-build-17-unsigned.pkg`。
-- App 更新使用：`case-management-beta-v0.1.13-build-17.zip`。
+- 首次安裝完整包：`case-management-beta-installer-v0.1.14-build-18-unsigned.zip`，包含安裝教學與 `2_個案管理-Beta-7天試用-v0.1.14-unsigned.pkg`。
+- 獨立安裝包：`case-management-beta-installer-v0.1.14-build-18-unsigned.pkg`。
+- App 更新使用：`case-management-beta-v0.1.14-build-18.zip`。
 
 本版維持封閉 Beta 測試，適用 Apple Silicon、macOS 26 以上；尚未取得 Apple Developer ID 簽署與公證。首次安裝請依完整包內教學操作。
 
-## 驗證範圍
+## 驗證範圍與已知限制
 
-本次修正的 14 項測試與 2 項相鄰檢查通過。另有 1 項既有個案清單排序測試失敗，已確認原版本也會失敗；未完成本版隔離畫面與全新帳號安裝驗收。
+本版以目前工作樹建置，包含尚未提交的近期調整。發布檢查涵蓋 Beta 建置、版本遞增、OTA 簽章、安裝包內容與 GitHub 下載核對；不代表全部功能已完成驗收。
+
+本次未執行完整隔離畫面、全新帳號安裝或真實舊版 App 更新驗收。晤談通知單切換的原始閃退問題仍待重現確認，本版不宣稱已修復該問題。
 ]]></description>
-            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.17/case-management-beta-v0.1.13-build-17.zip" length="19774717" type="application/octet-stream" sparkle:edSignature="8VoZRZ12aDkaak19RzxBvCmZKQJTFlpvhTm4bU1m6eQM4ZDxN888h4miPFK64tPrq0yLkaMddXzn2q5Tv7l4Cg=="></enclosure>
+            <enclosure url="https://github.com/MaxTheHaters/case-management-beta-updates/releases/download/v0.1-beta.18/case-management-beta-v0.1.14-build-18.zip" length="101505815" type="application/octet-stream" sparkle:edSignature="t/Kox1naO/RhiJAGlV27f6uXOkp06YzoNeA1MNNd/xxtOxNG4LlCDw+EXc1V4XYDa1UCIEZmdeD1vrdSoKS0CA=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: t4NZkYRqOr9OAis9M/FBB0t/YdRbKOflTBacL2Vez0ebSrfbrTPsddO/EdIhjE/19TR1OjUtNpstoh7uaIfsDw==
-length: 2679
+edSignature: mdLAKCG4czDgWt94GCCjFVtu7pL822QGpLgY0Z37aPxqYP2oT2byw3M7LUI5d/tZLWOyJgHYgwUL6t1QhHRWBQ==
+length: 2746
 -->
